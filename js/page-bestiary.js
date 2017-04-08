@@ -28,7 +28,7 @@ function parsesourcename (src) {
 	if (source == "lost mine of phandelver") source = "Lost Mine of Phandelver";
 	if (source == "tome of beasts") source = "Tome of Beasts (3pp)";
 	if (source == "Tales from the Yawning Portal") source = "Tales from the Yawning Portal";
-	if (source == "adventurers league") source = "Adventurer's League";
+	if (source == "Adventurer's League") source = "Adventurer's League";
 	return source;
 }
 
