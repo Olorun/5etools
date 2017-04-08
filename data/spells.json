@@ -6668,9 +6668,9 @@ var spelldata = {
                 "duration": "Instantaneous",
                 "classes": "Bard, Sorcerer, Wizard",
                 "text": [
-				"Each sleeping creature you choose within range awakens, and then each prone creature within range can stand up without expending any movement.",
-				"",
-				"This spell can be found in the Unearthed Arcana Starter Spells."
+					"Each sleeping creature you choose within range awakens, and then each prone creature within range can stand up without expending any movement.",
+					"",
+					"This spell can be found in the Unearthed Arcana Starter Spells."
 				]
             },
             {
@@ -7079,7 +7079,7 @@ var spelldata = {
 				"The spell’s damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).",
 				"",
 				"This spell can be found in the Unearthed Arcana Starter Spells."
-				]
+				],
 				"roll": [
 				"1d8 or 1d12",
 				"2d8 or 2d12",
