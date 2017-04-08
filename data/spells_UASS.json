@@ -5500,6 +5500,7 @@ var spelldata = {
 					"2d10",
 					"3d10",
 					"4d10"
+					]
             },
             {
                 "name": "Prismatic Spray",
