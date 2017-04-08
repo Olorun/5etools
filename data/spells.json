@@ -926,7 +926,7 @@ var spelldata = {
 					"",
 					"Investiture. You touch one willing humanoid. Choose one 1st-level spell you have prepared and expend a spell slot and any material components as if you were casting that spell. The spell has no effect. Instead, the target can cast this spell once without having to expend a spell slot or use material components. If the target doesn’t cast the spell within 1 hour, the invested spell is lost.",
 					"",
-					"Marriage. You touch adult humanoids willing to be bonded together in marriage. For the next 24 hours, each target gains a +2 bonus to AC and saving throws while they are within 30 feet of each other. A creature can benefit from this ceremony just once."
+					"Marriage. You touch adult humanoids willing to be bonded together in marriage. For the next 24 hours, each target gains a +2 bonus to AC and saving throws while they are within 30 feet of each other. A creature can benefit from this ceremony just once.",
 					"",
                     "This spell can be found in the Unearthed Arcana Starter Spells."
                 ],
@@ -944,7 +944,7 @@ var spelldata = {
                 "text": [
                     "You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 damage. Choose one of the d8s. The number it rolled determines the type of damage, as shown below.",
                     "",
-                    "d8 - Damage Type:",",
+                    "d8 - Damage Type:",
                     "1 - Acid",
                     "2 - Cold",
                     "3 - Fire",
@@ -4020,7 +4020,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "V, S, M (a living flea)",
                 "duration": "Instantaneous",
-                "classes": "Cleric, Paladin (Oathbreaker)",
+                "classes": "Druid, Sorcerer, Warlock, Wizard",
                 "text": [
                     "You cause mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw or take 1d6 piercing damage. If the target takes any of that damage, the target moves 5 feet in a random direction. Roll a d8 for the direction: 1, north; 2, northeast; 3, east; 4, southeast; 5, south; 6, southwest; 7, west; or 8, northwest.",
                     "",
