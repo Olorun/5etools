@@ -5495,7 +5495,7 @@ var spelldata = {
                     "",
                     "This spell can be found in the Unearthed Arcana Starter Spells."
                 ],
-				"rolls": [
+				"roll": [
 					"1d10",
 					"2d10",
 					"3d10",
