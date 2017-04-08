@@ -48887,6 +48887,71 @@ var monsterdata = {
             },
 			{
 				"source": "adventurers league",
+                "name": "Beeza, Ice Spire Ogre Shaman",
+                "size": "L",
+                "type": "giant",
+                "alignment": "chaotic evil",
+                "ac": "17 (+1 scale mail)",
+                "hp": "142 (15d8+72)",
+                "speed": "30 ft.",
+                "str": "21",
+                "dex": "14",
+                "con": "18",
+                "int": "10",
+                "wis": "18",
+                "cha": "12",
+                "save": "Con +8, Int +4, Wis +8",
+                "passive": "12",
+                "languages": "Common, Giant",
+                "cr": "8",
+                "trait": [{
+                        "name": "Magic Resistance",
+                        "text": [
+                            "Beeza has advantage on saving throws against spells and other magical effects."
+                        ]
+                    },
+                    {
+                        "name": "Spellcasting",
+                        "text": [
+                            " Beeza is an 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). Beeza has the following spells prepared:",
+                            "Cantrips (a will): mage hand, poison spray, prestidigitation, thorn whip",
+                            "1st level (4 slots): cure wounds, entangle, thunderwave",
+                            "2nd level (3 slots): flame blade, spike growth",
+							"3rd level (3 slots): counterspell, fireball, haste",
+							"4th level (3 slots): greater invisibility, fire shield, blight",
+							"5th level (1 slot): cone of cold"
+                        ]
+                    }
+                ],
+                "action": [{
+                        "name": "Multiattack",
+                        "text": [
+                            "Beeza makes three melee attacks."
+                        ]
+                    },
+                    {
+                        "name": "Greatsword",
+                        "text": [
+                            "Melee Weapon Attack: +9 to hit, reach 5ft., one target. Hit: 19 (4d6 + 5) slashing damage."
+                        ],
+                        "attack": [
+                            "Morningstar|9|4d6+5"
+                        ]
+                    },
+                    {
+                        "name": "Frozen Head",
+                        "text": [
+                            "Ranged Weapon Attack: +8 to hit, range 30/60 ft., one target. Hit: 12 (2d5 + 5) bludgeoning damage. In addition, every creature within 10 feet of the target must succeed on a DC 14 Dexterity saving throw or take 7 (2d6) piercing damage. The ice spire ogre carries four frozen heads."
+                        ],
+                        "attack": [
+                            "Rock|8|2d6+5+2d6"
+                        ]
+                    }
+                ],
+                "spells": "mage hand, poison spray, prestidigitation, thorn whip, cure wounds, entangle, thunderwave, flame blade, spike growth, counterspell, fireball, haste, greater invisibility, fire shield, blight, cone of cold"
+            },
+			{
+				"source": "adventurers league",
                 "name": "Ice Spire Ogre",
                 "size": "L",
                 "type": "giant",
