@@ -5404,7 +5404,7 @@ var monsterdata = {
                     ]
 			  }
 			 ],
-			}
+			},
             {
                 "name": "Bearded Devil",
                 "size": "M",
