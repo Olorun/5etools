@@ -23271,53 +23271,6 @@ var monsterdata = {
                 "spells": "fog cloud"
             },
 			{
-                "name": "Ice Spire Ogre",
-                "size": "L",
-                "type": "giant, monster manual",
-                "alignment": "chaotic evil",
-                "ac": "16 (scale armor, shield)",
-                "hp": "95 (10d10+40)",
-                "speed": "30 ft.",
-                "str": "21",
-                "dex": "10",
-                "con": "18",
-                "int": "9",
-                "wis": "12",
-                "cha": "8",
-                "skill": [
-                    "Perception +3"
-                ],
-                "senses": "darkvision 60 ft.",
-                "passive": "13",
-                "languages": "Common, Giant",
-                "cr": "4",
-                "action": [{
-                        "name": "Multiattack",
-                        "text": [
-                            "The ogre makes two melee attacks."
-                        ]
-                    },
-                    {
-                        "name": "Longsword",
-                        "text": [
-                            "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage."
-                        ],
-                        "attack": [
-                            "Longsword|8|2d8+5"
-                        ]
-                    },
-                    {
-                        "name": "Frozen Head",
-                        "text": [
-                            "Ranged Weapon Attack: +8 to hit, range 30/60 ft., one target. Hit: 12 (2d6 + 5) bludgenoning damage. In addition, every creature within 10 feet of the target must succeed on a DC 14 Dexterity saving throw or take 7 (2d6) piercing damage. The ice spire ogre carries four frozen heads."
-                        ],
-                        "attack": [
-                            "Frozen Head|8|2d8+5+2d6"
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "Ice Toad",
                 "size": "M",
                 "type": "monstrosity, tyranny of dragons",
@@ -48931,7 +48884,55 @@ var monsterdata = {
                 }],
                 "reaction": [],
                 "legendary": []
-            }
+            },
+			{
+				"source": "Adventurer's League",
+                "name": "Ice Spire Ogre",
+                "size": "L",
+                "type": "giant, monster manual",
+                "alignment": "chaotic evil",
+                "ac": "16 (scale armor, shield)",
+                "hp": "95 (10d10+40)",
+                "speed": "30 ft.",
+                "str": "21",
+                "dex": "10",
+                "con": "18",
+                "int": "9",
+                "wis": "12",
+                "cha": "8",
+                "skill": [
+                    "Perception +3"
+                ],
+                "senses": "darkvision 60 ft.",
+                "passive": "13",
+                "languages": "Common, Giant",
+                "cr": "4",
+                "action": [{
+                        "name": "Multiattack",
+                        "text": [
+                            "The ogre makes two melee attacks."
+                        ]
+                    },
+                    {
+                        "name": "Longsword",
+                        "text": [
+                            "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage."
+                        ],
+                        "attack": [
+                            "Longsword|8|2d8+5"
+                        ]
+                    },
+                    {
+                        "name": "Frozen Head",
+                        "text": [
+                            "Ranged Weapon Attack: +8 to hit, range 30/60 ft., one target. Hit: 12 (2d6 + 5) bludgenoning damage. In addition, every creature within 10 feet of the target must succeed on a DC 14 Dexterity saving throw or take 7 (2d6) piercing damage. The ice spire ogre carries four frozen heads."
+                        ],
+                        "attack": [
+                            "Frozen Head|8|2d8+5+2d6"
+                        ]
+                    }
+                ]
+            },
         ],
         "_version": "5"
     }
