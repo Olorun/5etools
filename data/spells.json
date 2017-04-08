@@ -882,6 +882,24 @@ var spelldata = {
                 ],
                 "roll": "3d8"
             },
+		    {
+                "name": "Cause Fear",
+                "source": "UASS",
+                "level": "1",
+                "school": "N",
+                "time": "1 action",
+                "range": "60 feet",
+                "components": "V, S",
+                "duration": "Concentration, up to 1 minute",
+                "classes": "Warlock, Wizard",
+                "text": [
+                    "You awaken the sense of mortality in one creature you can see within range. The target must succeed on a Wisdom saving throw or become frightened for the duration. A target with 25 hit points or fewer makes the saving throw with disadvantage. The spell has no effect on constructs or undead.",
+                    "",
+                    "The spell has no effect on constructs or undead.",
+                    "",
+                    "This spell can be found in the Unearthed Arcana Starter Spells"
+                ],
+            },
             {
                 "name": "Chain Lightning",
                 "level": "6",
