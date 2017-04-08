@@ -3463,7 +3463,7 @@ var spelldata = {
                 "range": "5 feet",
                 "components": "V, S",
                 "duration": "Concentration, up to 8 hours",
-                "classes": "Bard, Cleric, Druid",
+                "classes": "Bard, Cleric, Druid, Wizard",
                 "text": [
                     "You create a Tiny incorporeal hand of shimmering light in an unoccupied space you can see within range. The hand exists for the duration, but it disappears if you teleport or you travel to a different plane of existence.",
                     "",
@@ -5681,7 +5681,7 @@ var spelldata = {
                 "range": "120 feet",
                 "components": "S",
                 "duration": "Instantaneous",
-                "classes": "Warlock, Wizard",
+                "classes": "Bard, Warlock, Wizard",
                 "text": [
 				"Your gesture forces one humanoid you can see within range to make a Constitution saving throw. On a failed save, the target must move up to its speed in a direction you choose. In addition, you can cause the target to drop whatever it is holding.",
 				"",
@@ -6666,7 +6666,7 @@ var spelldata = {
                 "range": "10 feet",
                 "components": "V",
                 "duration": "Instantaneous",
-                "classes": "Bard, Sorcerer, Wizard",
+                "classes": "Bard, Ranger, Sorcerer, Wizard",
                 "text": [
 					"Each sleeping creature you choose within range awakens, and then each prone creature within range can stand up without expending any movement.",
 					"",
