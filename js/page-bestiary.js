@@ -12,7 +12,7 @@ function parsesource (src) {
 	if (source == "lost mine of phandelver") source = "LMoP";
 	if (source == "Tales from the Yawning Portal") source = "TYP";
 	if (source == "tome of beasts") source = "ToB 3pp";
-	if (source == "adventurers league") source = "Adventurer's League";
+	if (source == "adventurers league") source = "AL";
 	return source;
 }
 
