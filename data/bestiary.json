@@ -5404,6 +5404,7 @@ var monsterdata = {
                     ]
 			  }
 			 ],
+			 "spells": "mage hand, poison spray, prestidigitation, thorn whip, cure wounds, entangle, thunderwave, flame blade, spike growth, counterspell, fireball, haste, greater invisibility, fire shield, blight, cone of cold"
 			},
             {
                 "name": "Bearded Devil",
@@ -23340,6 +23341,7 @@ var monsterdata = {
                 "spells": "fog cloud"
             },
 			{
+				"source": "Adventurer's League",
                 "name": "Ice Spire Ogre",
                 "size": "L",
                 "type": "giant, adventurers league",
