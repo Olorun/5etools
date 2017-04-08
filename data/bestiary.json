@@ -48886,9 +48886,10 @@ var monsterdata = {
                 "legendary": []
             },
 			{
+				"source": "Tales from the Yawning Portal",
                 "name": "Ice Spire Ogre",
                 "size": "L",
-                "type": "giant, adventurers league",
+                "type": "giant",
                 "alignment": "chaotic evil",
                 "ac": "16 (scale armor, shield)",
                 "hp": "95 (10d10+40)",
@@ -48935,7 +48936,7 @@ var monsterdata = {
 			{
 				"name": "Young White Dragon Zombie",
                 "size": "L",
-                "type": "undead, adventurers league",
+                "type": "undead, monster manual",
                 "alignment": "neutral evil",
                 "ac": "15 (natural armor)",
                 "hp": "171 (18d12+90)",
