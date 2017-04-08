@@ -882,7 +882,7 @@ var spelldata = {
                 ],
                 "roll": "3d8"
             },
-			{
+		    {
                 "name": "Cause Fear",
                 "source": "UASS",
                 "level": "1",
@@ -898,7 +898,7 @@ var spelldata = {
                     "The spell has no effect on constructs or undead.",
                     "",
                     "This spell can be found in the Unearthed Arcana Starter Spells."
-                ],
+                ]
             },
 			{
                 "name": "Ceremony",
@@ -929,7 +929,7 @@ var spelldata = {
 					"Marriage. You touch adult humanoids willing to be bonded together in marriage. For the next 24 hours, each target gains a +2 bonus to AC and saving throws while they are within 30 feet of each other. A creature can benefit from this ceremony just once.",
 					"",
                     "This spell can be found in the Unearthed Arcana Starter Spells."
-                ],
+                ]
             },
 			{
                 "name": "Chaos Bolt",
@@ -961,7 +961,7 @@ var spelldata = {
 					"At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, each target takes extra damage of the type rolled. The extra damage equals 1d6 for each slot above 1st.",
 					"",
                     "This spell can be found in the Unearthed Arcana Starter Spells."
-                ],
+                ]
             },
             {
                 "name": "Chain Lightning",
@@ -981,7 +981,7 @@ var spelldata = {
                 ],
                 "roll": "10d8"
             },
-            {
+			{
                 "name": "Charm Person",
                 "level": "1",
                 "school": "EN",
@@ -3472,7 +3472,7 @@ var spelldata = {
 					"If you don’t move toward the hand, it remains in place until you do and beckons for you to follow once every 1d4 minutes.",
 					"",
                     "This spell can be found in the Unearthed Arcana Starter Spells."
-                ],
+                ]
             },
             {
                 "name": "Gust",
@@ -4013,7 +4013,7 @@ var spelldata = {
                 ],
                 "roll": "10d8"
             },
-			{
+            {
                 "name": "Infestation",
 				"source": "UASS",
                 "level": "0",
@@ -5478,6 +5478,29 @@ var spelldata = {
                     "This spell can be found in the Elemental Evil Player's Companion"
                 ]
             },
+			{
+                "name": "Primal Savagery",
+                "source": "UASS",
+                "level": "0",
+                "school": "T",
+                "time": "1 action",
+                "range": "Self",
+                "components": "S",
+                "duration": "Instantaneous",
+                "classes": "Druid",
+                "text": [
+                    "Your teeth or fingernails lengthen and sharpen. You choose which. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes 1d10 piercing or slashing damage (your choice). After you make the attack, your teeth or fingernails return to normal.",
+                    "",
+                    "The spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).",
+                    "",
+                    "This spell can be found in the Unearthed Arcana Starter Spells."
+                ],
+				"rolls": [
+					"1d10",
+					"2d10",
+					"3d10",
+					"4d10"
+            },
             {
                 "name": "Prismatic Spray",
                 "level": "7",
@@ -5647,6 +5670,24 @@ var spelldata = {
                     "",
                     "For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage."
                 ]
+            },
+			{
+                "name": "Puppet",
+				"source": "UASS",
+                "level": "1",
+                "school": "EN",
+                "time": "1 action",
+                "range": "120 feet",
+                "components": "S",
+                "duration": "Instantaneous",
+                "classes": "Warlock, Wizard",
+                "text": [
+				"Your gesture forces one humanoid you can see within range to make a Constitution saving throw. On a failed save, the target must move up to its speed in a direction you choose. In addition, you can cause the target to drop whatever it is holding.",
+				"",
+				"This spell has no effect on a humanoid that is immune to being charmed.",
+				"",
+				"This spell can be found in the Unearthed Arcana Starter Spells."
+				]
             },
             {
                 "name": "Purify Food and Drink",
@@ -6065,6 +6106,22 @@ var spelldata = {
                 ],
                 "roll": "1d20"
             },
+			{
+                "name": "Sense Emotion",
+				"source": "UASS",
+                "level": "1",
+                "school": "D",
+                "time": "1 action",
+                "range": "Self",
+                "components": "V, S",
+                "duration": "Concentration, up to 10 minutes",
+                "classes": "Bard, Warlock, Wizard",
+                "text": [
+				"You attune your senses to pick up the emotions of others for the duration. When you cast the spell, and as your action on each turn until the spell ends, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm.",
+				"",
+				"This spell can be found in the Unearthed Arcana Starter Spells."
+				]
+            },
             {
                 "name": "Sequester",
                 "level": "7",
@@ -6080,6 +6137,7 @@ var spelldata = {
                     "If the target is a creature, it falls into a state of suspended animation. Time ceases to flow for it, and it doesn't grow older.",
                     "",
                     "You can set a condition for the spell to end early. The condition can be anything you choose, but it must occur or be visible within 1 mile of the target. Examples include after 1,000 years or when the tarrasque awakes. This spells also ends if the target takes any damage."
+					
                 ]
             },
             {
@@ -6323,6 +6381,29 @@ var spelldata = {
                     "",
                     "A creature affected by this spell makes another Wisdom saving throw at the end of its turn. On a successful save, the effect ends for it."
                 ]
+            },
+			{
+                "name": "Snare",
+                "source": "UASS",
+                "level": "1",
+                "school": "A",
+                "time": "1 action",
+                "range": "Touch",
+                "components": "V, S, M (30 feet of cord or rope, which is consumed by the spell)",
+                "duration": "Until dispelled or triggered",
+                "classes": "Druid, Ranger, Wizard",
+                "text": [
+                    "While you cast this spell, you use the cord or rope to create a circle with a 5-foot radius on a flat surface within your reach. When you finish casting, the cord or rope disappears to become a magical trap.",
+                    "",
+                    "The trap is nearly invisible and requires a successful Intelligence (Investigation) checkagainst your spell save DC to be found.",
+                    "",
+					"The trap triggers when a Small creature or larger moves into the area protected by the spell. The triggering creature must succeed on a Dexterity saving throw or fall prone and be hoisted into the air until it hangs upside down 3 feet above the protected surface, where it is restrained.",
+					"",
+					"The restrained creature can make a Dexterity saving throw with disadvantage at the end of each of its turns and ends the restrained effect on a success. Alternatively, another creature that can reach the restrained creature can use an action to make an Intelligence (Arcana) check against your spell save DC. On a success, the restrained effect also ends.",
+					"",
+                    "This spell can be found in the Unearthed Arcana Starter Spells."
+                ],
+                "roll": "3d6"
             },
             {
                 "name": "Snilloc's Snowball Swarm",
@@ -6575,6 +6656,22 @@ var spelldata = {
                     "1d6",
                     "10d6"
                 ]
+            },
+			{
+                "name": "Sudden Awakening",
+				"source": "UASS",
+                "level": "1",
+                "school": "EN",
+                "time": "1 bonus action",
+                "range": "10 feet",
+                "components": "V",
+                "duration": "Instantaneous",
+                "classes": "Bard, Sorcerer, Wizard",
+                "text": [
+				"Each sleeping creature you choose within range awakens, and then each prone creature within range can stand up without expending any movement.",
+				"",
+				"This spell can be found in the Unearthed Arcana Starter Spells."
+				]
             },
             {
                 "name": "Suggestion",
@@ -6966,6 +7063,30 @@ var spelldata = {
                 ],
                 "roll": "1d4+1"
             },
+			{
+                "name": "Toll the Dead",
+				"source": "UASS",
+                "level": "0",
+                "school": "N",
+                "time": "1 action",
+                "range": "60 feet",
+                "components": "V, S",
+                "duration": "Instantaneous",
+                "classes": "Cleric, Warlock, Wizard",
+                "text": [
+				"You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take 1d8 necrotic damage. If the target is missing any of its hit points, it instead takes 1d12 necrotic damage.",
+				"",
+				"The spell’s damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).",
+				"",
+				"This spell can be found in the Unearthed Arcana Starter Spells."
+				],
+				"roll": [
+				"1d8 or 1d12",
+				"2d8 or 2d12",
+				"3d8 or 3d12",
+				"4d8 or 4d12"
+				]
+            },
             {
                 "name": "Tongues",
                 "level": "3",
@@ -7123,6 +7244,26 @@ var spelldata = {
                     "1d10"
                 ]
             },
+			{
+                "name": "Unearthly Chorus",
+				"source": "UASS",
+                "level": "1",
+                "school": "I",
+                "time": "1 action",
+                "range": "Self (30-foot radius)",
+                "components": "V",
+                "duration": "Concentration, up to 10 minutes",
+                "classes": "Bard",
+                "text": [
+                    "Music of a style you choose fills the air around you in a 30-foot radius. The music spreads around corners and can be heard from up to 100 feet away. The music moves with you, centered on you for the duration.",
+                    "",
+                    "Until the spell ends, you make Charisma (Performance) checks with advantage. In addition, you can use a bonus action on each of your turns to beguile one creature you choose within 30 feet of you that can see you and hear the music.",
+                    "",
+                    "The creature must make a Charisma saving throw. If you or your companions are attacking it, the creature automatically succeeds on the saving throw. On a failure, the creature becomes friendly to you for as long as it can hear the music and for 1 hour thereafter. You make Charisma (Deception) checks and Charisma (Persuasion) checks against creatures made friendly by this spell with advantage.",
+					"",
+					"This spell can be found in the Unearthed Arcana Starter Spells."
+                ]
+            },
             {
                 "name": "Unseen Servant",
                 "level": "1",
@@ -7180,6 +7321,23 @@ var spelldata = {
                     "3d4",
                     "4d4"
                 ]
+            },
+			{
+                "name": "Virtue",
+                "source": "UASS",
+                "level": "0",
+                "school": "A",
+                "time": "1 action",
+                "range": "Touch",
+                "components": "V, S",
+                "duration": "1 round",
+                "classes": "Cleric",
+                "text": [
+                    "You touch one creature, imbuing it with vitality. If the target has at least 1 hit point, it gains a number of temporary hit points equal to 1d4 + your spellcasting ability modifier. The temporary hit points are lost when the spell ends.",
+                    "",
+                    "This spell can be found in the Unearthed Arcana Starter Spells."
+                ],
+                "roll": "1d4 + SPELL"
             },
             {
                 "name": "Vitriolic Sphere",
@@ -7492,6 +7650,30 @@ var spelldata = {
                     "1d8"
                 ]
             },
+			{
+                "name": "Wild Cunning",
+				"source": "UASS",
+                "level": "1",
+                "school": "T",
+				"ritual": "YES",
+                "time": "1 action",
+                "range": "120 feet",
+                "components": "V, S",
+                "duration": "Instantaneous",
+                "classes": "Druid, Ranger",
+                "text": [
+                    "You call out to the spirits of nature to aid you. When you cast this spell, choose one of the following effects:",
+                    "",
+					"- If there are any tracks on the ground within range, you know where they are, and you make Wisdom (Survival) checks to follow these tracks with advantage for 1 hour or until you cast this spell again.",
+					"- If there is edible forage within range, you know it and where to find it.",
+					"- If there is clean drinking water within range, you know it and where to find it.",
+					"- If there is suitable shelter for you and your companions with range, you know it and where to find.",
+					"- Send the spirits to bring back wood for a fire and to set up a campsite in the area using your supplies. The spirits build the fire in a circle of stones, put up tents, unroll bedrolls, and put out any rations and water for consumption.",
+					"- Have the spirits instantly break down a campsite, which includes putting out a fire, taking down tents, packing up bags, and burying any rubbish.",
+					"",
+                    "This spell can be found in the Unearthed Arcana Starter Spells."
+                ]
+            },
             {
                 "name": "Wind Walk",
                 "level": "6",
@@ -7600,6 +7782,24 @@ var spelldata = {
                 "duration": "Concentration, up to 1 minute",
                 "classes": "Paladin, Warlock (Hexblade), Sorcerer (Stone)",
                 "text": "The next time you hit with a melee weapon attack during this spell's duration, your attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell."
+            },
+			{
+                "name": "Zephyr Strike",
+				"source": "UASS",
+                "level": "1",
+                "school": "T",
+                "time": "1 bonus action",
+                "range": "Self",
+                "components": "V",
+                "duration": "Concentration, up to 1 minute",
+                "classes": "Ranger",
+                "text": [
+                    "You move like the wind. For the duration, your movement doesn’t provoke opportunity attacks.",
+                    "",
+                    "In addition, the first time you make a weapon attack on your turn before the spell ends, you make the attack roll with advantage, and your speed increases by 30 feet until the end of that turn.",
+					"",
+					"This spell can be found in the Unearthed Arcana Starter Spells."
+                ]
             },
             {
                 "name": "Zone of Truth",

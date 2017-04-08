@@ -3472,7 +3472,7 @@ var spelldata = {
 					"If you don’t move toward the hand, it remains in place until you do and beckons for you to follow once every 1d4 minutes.",
 					"",
                     "This spell can be found in the Unearthed Arcana Starter Spells."
-                ],
+                ]
             },
             {
                 "name": "Gust",
