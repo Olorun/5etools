@@ -3453,6 +3453,27 @@ var spelldata = {
                     "4d6"
                 ]
             },
+			{
+                "name": "Guiding Hand",
+                "source": "UASS",
+                "level": "1",
+				"ritual": "YES",
+                "school": "D",
+                "time": "1 minute",
+                "range": "5 feet",
+                "components": "V, S",
+                "duration": "Concentration, up to 8 hours",
+                "classes": "Bard, Cleric, Druid",
+                "text": [
+                    "You create a Tiny incorporeal hand of shimmering light in an unoccupied space you can see within range. The hand exists for the duration, but it disappears if you teleport or you travel to a different plane of existence.",
+                    "",
+                    "When the hand appears, you name one major landmark, such as a city, mountain, castle, or battlefield on the same plane of existence as you. Someone in history must have visited the site and mapped it. If the landmark appears on no map in existence, the spell fails. Otherwise, whenever you move toward the hand, it moves away from you at the same speed you moved, and it moves in the direction of the landmark, always remaining 5 feet away from you.",
+                    "",
+					"If you don’t move toward the hand, it remains in place until you do and beckons for you to follow once every 1d4 minutes.",
+					"",
+                    "This spell can be found in the Unearthed Arcana Starter Spells."
+                ],
+            },
             {
                 "name": "Gust",
                 "source": "EEPC",
@@ -3562,6 +3583,28 @@ var spelldata = {
                     "The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature carefully examining the illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain."
                 ]
             },
+			{
+                "name": "Hand of Radiance",
+				"source": "UASS",
+                "level": "0",
+                "school": "EV",
+                "time": "1 action",
+                "range": "Self (5-foot radius)",
+                "components": "V, S",
+                "duration": "Instantaneous",
+                "classes": "Cleric",
+                "text": [
+					"You raise your hand, and burning radiance erupts from it. Each creature of your choice that you can see within 5 feet of you must succeed on a Constitution saving throw or take 1d6 radiant damage.",
+					"",
+					"The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
+					]
+				"roll": [
+                    "1d6",
+                    "2d6",
+                    "3d6",
+                    "4d6"
+                ]
+            },
             {
                 "name": "Harm",
                 "level": "6",
@@ -3603,6 +3646,25 @@ var spelldata = {
                     "",
                     "At Higher Levels: When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 for each slot level above 6th."
                 ]
+            },
+			{
+                "name": "Healing Elixir",
+				"source": "UASS",
+                "level": "1",
+                "school": "C",
+                "time": "1 minute",
+                "range": "Self",
+                "components": "V, S, M (alchemist's supplies)",
+                "duration": "24 hours",
+                "classes": "Warlock, Wizard",
+                "text": [
+                    "You create a healing elixir in a simple vial that appears in your hand. The elixir retains its potency for the duration or until it's consumed, at which point the vial vanishes.",
+                    "",
+                    "As an action, a creature can drink the elixir or administer it to another creature. The drinker regains 2d4 + 2 hit points.",
+					"",
+					"This spell can be found in the Unearthed Arcana Starter Spells."
+                ],
+                "roll": "2d4+2"
             },
             {
                 "name": "Healing Word",
@@ -3950,6 +4012,30 @@ var spelldata = {
                     "The cloud moves 10 feet directly away from you in a direction that you choose at the start of each of your turns."
                 ],
                 "roll": "10d8"
+            },
+			{
+                "name": "Infestation",
+				"source": "UASS",
+                "level": "0",
+                "school": "C",				
+                "time": "1 action",
+                "range": "30 feet",
+                "components": "V, S, M (a living flea)",
+                "duration": "Instantaneous",
+                "classes": "Druid, Sorcerer, Warlock, Wizard",
+                "text": [
+                    "You cause mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw or take 1d6 piercing damage. If the target takes any of that damage, the target moves 5 feet in a random direction. Roll a d8 for the direction: 1, north; 2, northeast; 3, east; 4, southeast; 5, south; 6, southwest; 7, west; or 8, northwest.",
+                    "",
+                    "The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+					"",
+					"This spell can be found in the Unearthed Arcana Starter Spells."					
+                ],
+                "roll": [
+                    "1d6",
+                    "2d6",
+					"3d6",
+					"4d6"
+                ]
             },
             {
                 "name": "Inflict Wounds",
