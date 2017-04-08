@@ -48886,10 +48886,9 @@ var monsterdata = {
                 "legendary": []
             },
 			{
-				"source": "Adventurer's League",
                 "name": "Ice Spire Ogre",
                 "size": "L",
-                "type": "giant, adventurers league",
+                "type": "giant",
                 "alignment": "chaotic evil",
                 "ac": "16 (scale armor, shield)",
                 "hp": "95 (10d10+40)",
