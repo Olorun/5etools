@@ -2276,7 +2276,7 @@ var racedata = {
             "size": "M",
             "speed": "30",
             "ability": "Wis 2, Cha 1",
-            "proficiency": "Deception, Persuasion",
+            "proficiency": "Deception, Persuasion",
             "trait": [
                {
                   "name": "Amphibious",
@@ -2329,7 +2329,7 @@ var racedata = {
                   "text": [
                      "You have resistance to fire damage and psychic damage. In addition, when you are wearing no armor, your AC is equal to 11 + your Dexterity modifier."
                   ]
-               }, 
+               },
                {
                   "name": "Grogtag Tamer",
                   "text": [
@@ -2381,7 +2381,8 @@ var racedata = {
                   "text": [
                      "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
                   ]
-               },               
+               },
+
                {
                   "name": "Mask of the Wild",
                   "text": [
@@ -2454,7 +2455,8 @@ var racedata = {
                   "text": [
                      "You have resistance to fire damage and psychic damage. In addition, when you are wearing no armor, your AC is equal to 11 + your Dexterity modifier."
                   ]
-               },               
+               },
+
                {
                   "name": "Languages",
                   "text": [
@@ -2471,7 +2473,7 @@ var racedata = {
          },
          {
             "name": "Elf (Mul Daya Nation)",
-            "source": "Plaaneshift Zendikar",
+            "source": "Plane Shift Zendikar",
             "size": "M",
             "speed": "30",
             "ability": "Str 1, Wis 2",
@@ -2546,7 +2548,8 @@ var racedata = {
                   "text": [
                      "You have resistance to fire damage and psychic damage. In addition, when you are wearing no armor, your AC is equal to 11 + your Dexterity modifier."
                   ]
-               },               
+               },
+
                {
                   "name": "Languages",
                   "text": [
@@ -2685,9 +2688,9 @@ var racedata = {
             "size": "M",
             "speed": "30",
             "ability": "Cha 2, choose 2 1",
-            "proficiency": "Intimidation"
+            "proficiency": "Intimidation",
             "trait": [
-               
+
                {
                   "name": "Darkvision",
                   "text": [
@@ -2705,61 +2708,16 @@ var racedata = {
                   "text": [
                      "You have proficiency in the Intimidation skill."
                   ]
-               }, 
+               },
                {
                   "name": "Languages",
                   "text": [
                      "You can speak, read, and write Common and two other languages of your choice."
-                  ]
-               }  
-            ]
-         },
-         {
-            "name": "Dwarf",
-            "source": "Plane Shift Kaladesh"
-            "size": "M",
-            "speed": "25",
-            "ability": "Con 2, Wis 1",
-            "trait": [
-               {
-                  "name": "Speed",
-                  "text": [
-                     "Your speed is not reduced by wearing heavy armor."
-                  ]
-               },
-               {
-                  "name": "Darkvision",
-                  "text": [
-                     "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                  ]
-               },
-               {
-                  "name": "Dwarven Resilience",
-                  "text": [
-                     "You have advantage on saving throws against poison, and you have resistance against poison damage."
-                  ]
-               },
-               {
-                  "name": "Dwarven Toughness",
-                  "text": [
-                     "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
-                  ]
-               },
-               {
-                  "name": "Artisan's Expertise",
-                  "text": [
-                     "You gain proficiency with two kinds of artisan’s tools of your choice. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. In addition, whenever you make an Intelligence (History) check related to the origin of any architectural construction (including buildings, public works such as canals and aqueducts, and the massive cogwork that underlies much of the construction of Ghirapur), you are onsidered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
-                  ]
-               },
-               {
-                  "name": "Languages",
-                  "text": [
-                     "You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
-                  ]
-               }
-            ]
-         },
-         {
+				  ]
+			   }
+              ]
+           },
+           {
             "name": "Elf (Bishatar and Tirahar)",
             "source": "Plane Shift Kaladesh",
             "size": "M",
@@ -2802,7 +2760,8 @@ var racedata = {
                   "text": [
                      "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
                   ]
-               },               
+               },
+
                {
                   "name": "Mask of the Wild",
                   "text": [
@@ -2877,7 +2836,7 @@ var racedata = {
          },
          {
             "name": "Vedalken",
-            "source": "Plane Shift Kaladesh"
+            "source": "Plane Shift Kaladesh",
             "size": "M",
             "speed": "30",
             "ability": "Int, Wis 1",

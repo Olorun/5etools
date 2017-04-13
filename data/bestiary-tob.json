@@ -40,7 +40,7 @@ monsterdata.compendium.monster.push(
   {
    "name": "Undead Fortitude",
    "text": [
-     " If damage reduces the nihileth to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the nihileth drops to 1 hit point instead."
+    " If damage reduces the nihileth to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the nihileth drops to 1 hit point instead."
    ]
   },
   {
@@ -108,13 +108,13 @@ monsterdata.compendium.monster.push(
   }
  ],
  "reaction": [
- {
-	"name": "Void Body",
-    "text": [
-    " As a reaction, the nihileth can reduce the damage it takes from a single source to 0. Radiant damage can only be reduced by half."
-   ]
+  {
+   "name": "Void Body",
+   "text": [
+   " As a reaction, the nihileth can reduce the damage it takes from a single source to 0. Radiant damage can only be reduced by half."
+  ]
  }
- ],
+],
  "legendary": [
   {
    "name": "",
@@ -7622,63 +7622,5 @@ monsterdata.compendium.monster.push(
  ],
  "reaction": [],
  "legendary": []
-},
-{
- "name": "Desert Giant",
- "size": "H",
- "type": "giant, tome of beasts",
- "alignment": "neutral",
- "ac": "17 (natural armor)",
- "hp": "175 (14d12 + 84)",
- "speed": "40 ft.",
- "str": "27",
- "dex": "10",
- "con": "22",
- "int": "13",
- "wis": "18",
- "cha": "15",
- "save": "Str + 12, Con +10, Cha +6",
- "skill": [
-  "Perception +8, Stealth +4, Survival +8"
- ],
- "immune": "fire",
- "senses": "",
- "passive": "18",
- "languages": "Common, Giant",
- "cr": "9",
- "trait": [
-  {
-   "name": "Sand Camouflage",
-   "text": [
-    " The giant has advantage on Dexterity (Stealth) checks made to hide in sandy terrain."
-   ]
-  },
-  {
-   "name": "Wasteland Stride",
-   "text": [
-    "The giant ignores difficult terrain caused by sand, gravel, or rocks."
-   ]
-  }
- ],
- "action": [
-  {
-   "name": "Multiattack",
-   "text": [
-    "The giant makes two falchion attacks."
-   ]
-  },
-  {
-   "name": "Falchion",
-   "text": [
-    "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 23 (6d4 + 8) slashing damage."
-   ]
-  },
-  {
-   "name": "Rock",
-   "text": [
-    "Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage."
-   ]
-  }
- ],
 }
 );
