@@ -1024,7 +1024,8 @@ var spelldata = {
                 "duration": "Instantaneous",
                 "classes": "Sorcerer, Wizard, Fighter (Eldritch Knight)",
                 "text": [
-                    "You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose.",
+                    "You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target.",
+ +                    "If the attack hits, the creature takes 3d8 damage of the type you chose.",
                     "",
                     "At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st."
                 ],
@@ -1827,7 +1828,7 @@ var spelldata = {
                 "school": "EV",
                 "time": "1 action",
                 "range": "120 feet",
-                "components": "V, S, M",
+                "components": "V, S, M (a bit of phosphorus or wychwood, or a glowworm)",
                 "duration": "Concentration, up to 1 minute",
                 "classes": "Bard, Sorcerer, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster)",
                 "text": [
@@ -2681,7 +2682,7 @@ var spelldata = {
                 "components": "V, M (a white feather or the heart of a hen)",
                 "duration": "1 minute",
                 "classes": "Bard, Sorcerer, Wizard, Warlock (Seeker)",
-                "text": "Reaction - When you or a creature within 60 feet of you falls Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature."
+                "text": "Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature."
             },
             {
                 "name": "Feeblemind",
@@ -3091,7 +3092,7 @@ var spelldata = {
                 "school": "EN",
                 "time": "1 action",
                 "range": "Self",
-                "components": "S, M",
+                "components": "S, M (a small amount of makeup applied to the face as this spell is cast)",
                 "duration": "Concentration, up to 1 minute",
                 "classes": "Bard, Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster)",
                 "text": "For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn't hostile toward you. When the spell ends, the creature realizes that you used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM's discretion), depending on the nature of your interaction with it."
@@ -5593,7 +5594,7 @@ var spelldata = {
                 "school": "I",
                 "time": "1 action",
                 "range": "120 feet",
-                "components": "V, S, M",
+                "components": "V, S, M (a bit of fleece and jade dust worth at least 25 gp)",
                 "duration": "Until dispelled",
                 "classes": "Bard, Wizard, Rogue (Arcane Trickster)",
                 "text": [
@@ -5874,7 +5875,7 @@ var spelldata = {
                 "school": "A",
                 "time": "1 action",
                 "range": "Touch",
-                "components": "V, S, M",
+                "components": "V, S, M (a miniature cloak)",
                 "duration": "Concentration, up to 1 minute",
                 "classes": "Cleric, Druid",
                 "text": "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after the saving throw. The spell then ends.",
@@ -6228,7 +6229,7 @@ var spelldata = {
                 "school": "T",
                 "time": "1 bonus action",
                 "range": "Touch",
-                "components": "V, S, M",
+                "components": "V, S, M (mistletoe, a shamrock leaf, and a club or quarterstaff)",
                 "duration": "1 minute",
                 "classes": "Druid",
                 "text": "The wood of a club or quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon."
@@ -6954,7 +6955,7 @@ var spelldata = {
                 "school": "T",
                 "time": "1 action",
                 "range": "30 feet",
-                "components": "V, S, M",
+                "components": "V, S, M (the stem of a plant with thorns)",
                 "duration": "Instantaneous",
                 "classes": "Druid",
                 "text": [
@@ -7707,7 +7708,7 @@ var spelldata = {
                 "school": "C",
                 "time": "1 action",
                 "range": "Self",
-                "components": "V, S, M",
+                "components": "V",
                 "duration": "Instantaneous",
                 "classes": "Sorcerer, Wizard",
                 "text": [
@@ -7757,7 +7758,7 @@ var spelldata = {
                 "school": "C",
                 "time": "1 action",
                 "range": "5 feet",
-                "components": "V, S, M",
+                "components": "V",
                 "duration": "Instantaneous",
                 "classes": "Cleric",
                 "text": [
@@ -7772,7 +7773,7 @@ var spelldata = {
                 "school": "EV",
                 "time": "1 bonus action",
                 "range": "Self",
-                "components": "V, S, M",
+                "components": "V",
                 "duration": "Concentration, up to 1 minute",
                 "classes": "Paladin, Warlock (Hexblade), Sorcerer (Stone)",
                 "text": "The next time you hit with a melee weapon attack during this spell's duration, your attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell."
@@ -7801,7 +7802,7 @@ var spelldata = {
                 "school": "EN",
                 "time": "1 action",
                 "range": "60 feet",
-                "components": "V, S, M",
+                "components": "V, S",
                 "duration": "10 minutes",
                 "classes": "Bard, Cleric, Paladin, Paladin (Devotion), Paladin (Crown)",
                 "text": [
@@ -8633,7 +8634,7 @@ var spelldata = {
                       "Climbing (2 psi). You grow tiny hooked claws that give you gain a climbing speed equal to your walking speed",
                       "Flight (5 psi). Wings sprout from your back. You gain a flying speed equal to your walking speed.",
                       "Keen Senses (2 psi). Your eyes and ears become more sensitive. You gain advantage on Wisdom (Perception) checks.",
-                      "Keen Senses (2 psi). Your eyes and ears become more sensitive. You gain advantage on Wisdom (Perception) checks.",
+                      "Perfect Senses (3 psi). You gain a keen sense of smell and an instinct to detect prey. You can see invisible creatures and objects within 10 feet of you, even if you are blinded.",
                       "Swimming (2 psi). You gain fins and webbing between your fingers and toes; you gain a swimming speed equal to your walking speed.",
                       "Tough Hide (2 psi). Your skin becomes as tough as leather; you gain a +2 bonus to AC."
               ]
