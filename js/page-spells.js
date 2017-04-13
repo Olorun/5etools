@@ -36,7 +36,9 @@ function parsesource (source) {
 	if (source === "EEPC") source = "Elemental Evil Player's Companion";
 	if (source === "SCAG") source = "Sword Coast Adventurer's Guide";
 	if (source === "UAMystic") source = "Unearthed Arcana: The Mystic Class";
+	if (source === "UAModern") source = "Unearthed Arcana: Modern Magic";
 	if (source === "UASS") source = "Unearthed Arcana: Starter Spells";
+	if (source === "UATOBM") source = "Unearthed Arcana: That Old Black Magic";
 	return source;
 }
 

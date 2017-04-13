@@ -8550,9 +8550,9 @@ var spelldata = {
 					"At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, each target takes extra damage of the type rolled. The extra damage equals 1d6 for each slot above 1st.",
 					"",
                     "This spell can be found in the Unearthed Arcana Starter Spells."
-                ],
+                ]
             },
-						{
+			{
                 "name": "Guiding Hand",
                 "source": "UASS",
                 "level": "1",
@@ -8614,7 +8614,7 @@ var spelldata = {
                 ],
                 "roll": "2d4+2"
             },
-						{
+			{
                 "name": "Infestation",
 				"source": "UASS",
                 "level": "0",
